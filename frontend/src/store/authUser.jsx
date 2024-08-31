@@ -14,7 +14,7 @@ export const UseAuthStore = create ((set)=>({
         try {
             
             console.log(credentials);
-            const response =await axios.post("http://localhost:5000/api/v1/auth/signup",credentials);
+            const response =await axios.post("/api/v1/auth/signup",credentials);
             set({user:response.data.user,isSigningUp:false});
             toast.success("Account Created Successfully")
 
@@ -28,7 +28,7 @@ export const UseAuthStore = create ((set)=>({
 		try {
             console.log("hi log in koro");
             console.log(credentials);
-			const response = await axios.post("http://localhost:5000/api/v1/auth/login", credentials);
+			const response = await axios.post("/api/v1/auth/login", credentials);
 			set({ user: response.data.user, isLoggingIn: false });
             toast.success("Log in Successfully")
 		} catch (error) {
@@ -44,7 +44,7 @@ export const UseAuthStore = create ((set)=>({
         try {
             
             console.log("hello");
-            const response =await axios.post("http://localhost:5000/api/v1/auth/logout");
+            const response =await axios.post("/api/v1/auth/logout");
             set({user:null,isloggingOut:false});
             console.log("hello");
             toast.success("Log out Successfully")
@@ -67,7 +67,8 @@ export const UseAuthStore = create ((set)=>({
         try {
             
             console.log("dhukche");
-            const response =await axios.post("http://localhost:5000/api/v1/auth/authCheck");
+            const response =await axios.post("/api/v1/auth/authCheck");
+            console.log(response);
             set({user:response.data.user,ischeckingAuth:false});
             
         } catch (error) {
