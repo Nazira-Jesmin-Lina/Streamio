@@ -1,0 +1,64 @@
+.hero{
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding: 2rem 1rem;
+    justify-content: space-between;
+    align-items: start;
+    overflow-x: scroll;
+    background-color: black;
+    min-width: 200px;
+}
+
+.hero::-webkit-scrollbar {
+    display: none;
+  }
+
+.hero h1{
+    color: white;
+    position: relative;
+    font-size: 1rem;
+}
+
+.image-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6%;
+    
+}
+
+.image-sec img{
+    margin-right: 0.5rem;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    
+
+}
+
+.image-sec img:hover{
+   transform: scale(1.5);
+   
+
+}
+
+
+@media screen and (max-width:850px) {
+
+    .image-sec iframe{
+       width: 100%;
+       height: 150px;
+       margin-top: 20%;
+        
+    
+    }
+
+    .hero h1{
+        font-size: .8rem;
+    }
+
+
+    
+}

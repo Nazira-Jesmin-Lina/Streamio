@@ -1,0 +1,48 @@
+.footer{
+    background:black;
+    color: white;
+    padding: 10rem 12rem;
+    align-items: start;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.second{
+ 
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+   
+}
+
+.third{
+ 
+    display: flex;
+    align-items: start;
+    
+   
+}
+
+.second li,.third li{
+    margin-top: 2rem ;
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    align-items: start;
+}
+
+.second a{
+    margin-right: 10rem;
+    color: white;
+}
+
+.third a{
+    margin-right: 5rem;
+    color: white;
+}
