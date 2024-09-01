@@ -20,7 +20,7 @@ const Homepagecomp = () => {
       };
 
       try {
-        const response = await fetch('http://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1', options);
+        const response = await fetch('https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1', options);
         if (response.ok) {
           const data = await response.json();
           const randomIndex = Math.floor(Math.random() * data.results.length);
