@@ -48,13 +48,13 @@ export const Menuitem = [
    
 
   
-    {
-        url :'/search',
-        cName : 'nav-links',
-        icon: "fa-solid fa-magnifying-glass"
+    // {
+    //     url :'/search',
+    //     cName : 'nav-links',
+    //     icon: "fa-solid fa-magnifying-glass"
        
 
-    },
+    // },
 
     
 

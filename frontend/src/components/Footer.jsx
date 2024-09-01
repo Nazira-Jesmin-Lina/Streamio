@@ -10,17 +10,17 @@ export default function Footer() {
       </div>
       <div className='second'>
         <li>
-          <a href='/'>FAQ</a>
-          <a href='/'>Help Center</a>
-          <a href='/'>Terms of Use</a>
-          <a href='/'>Privacy</a>
+          <a >FAQ</a>
+          <a >Help Center</a>
+          <a >Terms of Use</a>
+          <a >Privacy</a>
         </li>
 
       </div>
       <div className='third'>
         <li>
-        <a href='/'>Cookie preference</a>
-        <a href='/'>Corporate Information</a>
+        <a >Cookie preference</a>
+        <a >Corporate Information</a>
         </li>
 
       </div>
