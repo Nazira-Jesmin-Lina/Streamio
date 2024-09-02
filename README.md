@@ -6,7 +6,7 @@ Streamio is a movie-based app. Users can find the movies organized into differen
 
 **Frontend:**  
 - React.js  
-- Tailwind CSS
+- HTML/CSS
 
 **Backend:**  
 - Node.js  
